@@ -1,21 +1,54 @@
+
 body{
   margin: auto;
   background-image: url("https://image.freepik.com/free-photo/medical-stethoscope-apple-fruit-wooden-background-healthy-lifestyle-concept-image_1205-1472.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-header {
-  /* margin: 20px; */
-  padding: 10px;
+h1{
   text-align: center;
-  background: black;
-  color :  aliceblue;
-  font-size: 30px;
+}
+
+.headerStyle {
+  background: rgba(119, 115, 115, 0.637);
+    color: #fff;
+    padding: 7px;
+    margin-bottom: 50px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.inputText , button
+a.linkStyle
 {
   position: relative;
-  left: 40px;
+  left: 600px;
+  margin: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  
 }
+.inputText , button
+{
+  width: 55%;
+  position: relative;
+  left: 300px;
+  outline: none;
+  border: solid 1px gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+.items{
+  background-color: rgba(204, 137, 137, 0.801);
+  margin: auto;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+/* Delete button */
+.delbtn{
+  position: relative;
+  left: 1000px;
+  width: 5%;
+}
+

@@ -17,15 +17,13 @@ export default class ListItem extends React.Component {
       })
     }
 
-    // // editing items
-    // editingItem = ()=>{
-    //     console.log("Editing ")
-    //     this.setState({
-    //         isEditing : !this.state.isEditing
-    //     })
-        
-       
-    // }
+    // editing items
+    editingItem = ()=>{
+        console.log("Editing ")
+        this.setState({
+            isEditing : !this.state.isEditing
+        })
+    }
 
     render(){
         return (
@@ -42,11 +40,10 @@ export default class ListItem extends React.Component {
             
 
                  {/* /* editing item */ }
-                 
-            {/* <button type="button" className="btn-sm btn-success delbtn"
+            <button type="button" className="btn-sm btn-success delbtn"
             onClick={()=>this.editingItem()}>
                  <i className ="fa fa-pencil"/>
-            </button> */}
+            </button>
 
 
             <button type="button" className="btn-sm btn-danger delbtn"

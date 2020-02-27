@@ -14,6 +14,7 @@
 ## Technologies
 * React js
 * Bootsrap
+* Fontawesome 
 * CSS
 * Postman
 * VS code
